@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="HighLow Radio Player (UNOFFICIAL).exe" version="2020.8.2.0" publicKeyToken="c0ba74d88cee80fe" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="default.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="HighLow Radio Player (UNOFFICIAL)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="HighLow Radio Player (UNOFFICIAL).exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6+yJYCH9U7je4PWAlGSJTF3Q44b7oJIu0ebBT2T2PuM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HighLow Radio Player (UNOFFICIAL).exe" size="207848">
+      <assemblyIdentity name="HighLow Radio Player (UNOFFICIAL)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PcEp9vHF7/u9AcQYFEU6pYnWRcW6zOPXG3czGe6SC/k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>O8MKgTC0R/m+60yHwdsyKlv2+cO5tmOByPGsY0Syck8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="default.ico" size="168820">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>95xLcs7jkiHYUx/xxPPJSkv2wpK3+eUCCIpdlan4SnI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HighLow Radio Player (UNOFFICIAL).exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-2NJT8UR\Robert" issuerKeyHash="a0fcea0e9cda64b92a291951cc00b60b09afef97" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>r2MEbj5mrSYYBnj3i0iG6aOpuuoEzQYNNpXBuYi1L2I=</DigestValue></Reference></SignedInfo><SignatureValue>bL4oSz2RqryF/GF8i3W8V/w8zPiqjNFVzg1x/wwiWaNRFxubE8kejcqMAnXro78BBEsZhQy6Btg0BV10Q//LtSRu5Fit+6rhT9SuWprHsgBO1RVr2WEQcbwXpcr0/NceaEgchg0O9HvDFLOpXylcCgI8V9wXHzH/RrNrN3/i5OI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uvzME5VknxaFWAvrKBLgEmaYTj2lAGidtsGhf5kADry7SDhhpK+mCqJfzQamqpldR17m2o+4QzuIwW8cAOS3o2bzR8rc9LMtwJPy3K2z8LsqckZ8ydeC2QfloG4GIpP8jQ37gDV6nZwEzUlkh3QlPwPXjK2GwnWfRUzWpRLZnq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="622fb588b9c195360d06cd04eabaa9a3e986488bf778061826ad663e6e0463af" Description="" Url=""><as:assemblyIdentity name="HighLow Radio Player (UNOFFICIAL).exe" version="2020.8.2.0" publicKeyToken="c0ba74d88cee80fe" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-2NJT8UR\Robert</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5wYVBF0n5OJzSzgF7sPo6hQQuZC3ItoF9/1owzgtm6E=</DigestValue></Reference></SignedInfo><SignatureValue>BEqGNxxQnnvIpOf8Gtx+Wq3sKwG+T3m+Q0O4lvfmrnL52saQn1+k8M8inxQERXVIDBIi6yypJGleyj9o+FdXE8NBwPBHTkj2JlFyTDxEuxooWigAGLqvol0ral1ndQuQR+GoL8fTFg9wrwsELRxjrfgsFswmdGY1hAQ54CCKWI0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uvzME5VknxaFWAvrKBLgEmaYTj2lAGidtsGhf5kADry7SDhhpK+mCqJfzQamqpldR17m2o+4QzuIwW8cAOS3o2bzR8rc9LMtwJPy3K2z8LsqckZ8ydeC2QfloG4GIpP8jQ37gDV6nZwEzUlkh3QlPwPXjK2GwnWfRUzWpRLZnq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQP/NM1zfqoJNF4dg7dBRDOjANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADIATgBKAFQAOABVAFIAXABSAG8AYgBlAHIAdDAeFw0yMDAyMDkwMjM1NTRaFw0yMTAyMDgwODM1NTRaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AMgBOAEoAVAA4AFUAUgBcAFIAbwBiAGUAcgB0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6/MwTlWSfFoVYC+soEuASZphOPaUAaJ22waF/mQAOvLtIOGGkr6YKol/NBqaqmV1HXubaj7hDO4jBbxwA5LejZvNHytz0sy3Ak/LcrbPwuypyRnzJ14LZB+WgbgYik/yNDfuANXqdnATNSWSHdCU/A9eMrYbCdZ9FTNalEtmerQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJcvPT6M2I73iSqh/iWPYH4YzyPLyMhw9rT0Bzxq7XbFuykZHEX53blnEZOlKLfOeR7QocZOlkBBcKq94cLcyIhZ0WABtMAgq9tmlt1El7iVtDNR68lRbIXX1fn5IEHcwQW8NHSBfxHYFakSfeda5w6wmlPx0/rjZdB1x4Bfn0UT</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
