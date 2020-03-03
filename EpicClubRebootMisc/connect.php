@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "lateric2_wearelatericius";
-$password = "!Sw=%2&PoH(d";
+$password = "SomePassWordHere";
 $database = "lateric2_accountslgggt";
 
 // Create connection
